@@ -1,0 +1,121 @@
+body {
+  padding: 10vh 10vh 10vh 10vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.Create {
+
+  margin-left: 155vh !important;
+  background-color: green !important;
+  margin-right: 3vh !important;
+}
+
+.Create:hover {
+  cursor: pointer;
+}
+
+.Update {
+  margin-left: 155vh !important;
+}
+
+.Update:hover {
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 5vh !important;
+}
+
+.input-main-box {
+  margin-top: 7vh;
+}
+
+.main-box {
+  background-color: rgb(224, 223, 223);
+  padding: 5vh;
+  width: 190vh;
+  transition: 1s all;
+}
+
+.inputfield {
+  width: 85vh !important;
+}
+
+.getdata {
+  margin-top: 10vh;
+}
+
+table {
+  width: 100vh;
+  padding: 5vh;
+  margin-top: 5vh;
+}
+
+.heading {
+  font-weight: 900;
+}
+
+td {
+  background-color: white;
+  padding: 1vh;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.card {
+  background-color: white;
+  padding: 3vh;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+
+.card:hover {
+  background-color: rgb(232, 231, 231);
+  cursor: pointer;
+}
+
+.delete {
+  margin-left: 2vh;
+}
+
+.change-title {
+  width: 100%;
+}
+
+.change-box {
+  padding: 5vh;
+}
+
+.emptydata {
+  background-color: white;
+  justify-content: center;
+  padding: 5vh;
+  border-radius: 20px;
+}
+
+.modal {
+  opacity: 50%;
+}
+
+.hed {
+  color: rgba(0, 0, 255, 0.7);
+  margin: 0vh 0vh 0vh 66vh;
+}
+
+.button {
+  margin: 10vh 0vh 0vh 88vh !important;
+}
+
+.buttonLogOut {
+  margin: 0vh 0vh 0vh 155vh;
+}
