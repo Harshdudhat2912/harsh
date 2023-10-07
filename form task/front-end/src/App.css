@@ -61,3 +61,10 @@ img {
   margin-left: 2vh;
   margin-top: 1vh;
 }
+
+.notFoundImg {
+  height: 50vh;
+  width: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -5,7 +5,7 @@ import CreatePage from "./CreatePage/CreatePage";
 import DashboardData from "./Dashboard/Dashboard";
 import Loginpage from "./CreatePage/Loginpage";
 import Note from "./Dashboard/Notes";
-
+import NoPage from "./componets/404/index"
 
 function App()
 {
@@ -30,10 +30,6 @@ function App()
 }
 
 
-const NoPage = () =>
-{
-  return <> <h1>404</h1></>
-};
 
 
 export default App;
